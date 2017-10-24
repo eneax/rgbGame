@@ -44,12 +44,12 @@ function setupCircles() {
 			var clickedColor = this.style.backgroundColor;
 			if (clickedColor === pickedColor) {
 				messageDisplay.textContent = "Correct!";
-				resetButton.textContent = "Play Again?"
+				resetButton.textContent = "Play Again?";
 				changeColors(clickedColor);
 				h1.style.backgroundColor = clickedColor;
 			} else {
 				this.style.backgroundColor = "#212121";
-				messageDisplay.textContent = "Try Again!"
+				messageDisplay.textContent = "Try Again!";
 			}
 		});
 	}
