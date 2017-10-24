@@ -59,11 +59,11 @@ function reset() {
 	colors = generateRandomColors(numCircles);
 	pickedColor = pickColor();
 	colorDisplay.textContent = pickedColor;
-	resetButton.textContent = "New Colors"
+	resetButton.textContent = "New Colors";
 	messageDisplay.textContent = "";
 	for (var i = 0; i < circles.length; i++) {
 		if (colors[i]) {
-			circles[i].style.display = "block"
+			circles[i].style.display = "block";
 			circles[i].style.backgroundColor = colors[i];
 		} else {
 			circles[i].style.display = "none";
