@@ -9,13 +9,9 @@ a {
 	text-decoration: none;
 }
 
-.fa-paint-brush {
-	transition: transform .5s;
-}
+.fa-paint-brush { transition: transform .5s; }
 
-.fa-paint-brush:hover {
-	transform: rotate(-30deg);
-}
+.fa-paint-brush:hover { transform: rotate(-30deg); }
 
 h1 {
 	text-align: center;
@@ -29,9 +25,7 @@ h1 {
 	padding: .5em 0;
 }
 
-#colorDisplay {
-	font-size: 1.5em;
-}
+#colorDisplay { font-size: 1.5em; }
 
 #stripe {
 	background: #fff;
