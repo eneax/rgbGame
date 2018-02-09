@@ -10,7 +10,6 @@ a {
 }
 
 .fa-paint-brush { transition: transform .5s; }
-
 .fa-paint-brush:hover { transform: rotate(-30deg); }
 
 h1 {
